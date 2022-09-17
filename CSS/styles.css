@@ -3,6 +3,11 @@
 body {
     font-family: 'Nunito', sans-serif;
     background-color: rgb(58, 56, 56);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0
 }
 .navbar {
     list-style: none;
@@ -39,26 +44,23 @@ body {
     border-radius: 105%;
 }
 
-.video {
-    border-radius: 15px;
-    overflow: auto;
-    float: float;
+video {
+    border-radius: 10px;
+    width: 50%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
 }
 
 h2 { 
     color: rgb(219, 209, 209);
     font-size: 35px;
-    position: absolute;
     text-align: center;
-    top: 18%;
-    left: 55%;
+   
 }
-.description {
+.text {
     color: rgb(219, 209, 209);
     font-size: 21px;
-    position: absolute;
     text-align: center;
-    top: 27%;
-    left: 32%;
-
 }
