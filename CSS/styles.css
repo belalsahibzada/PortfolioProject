@@ -12,16 +12,22 @@ body {
 
 #welcome {
     position: absolute;
-    top: 30%;
-    right: 23%;
+    top: 23%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
     text-align: center;
     color: rgb(233, 216, 216);
     font-size: 35px;
 }
 #footer {
    position: absolute;
-   bottom: 0%;
-   right: 47%;
+   top: 92%;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
    text-align: center;
    color: rgb(233, 216, 216);
 }
@@ -37,6 +43,10 @@ body {
 
 .navbar li{
     float: right;
+}
+
+a{
+    text-decoration: none;
 }
 
 .navbar li a{
@@ -76,8 +86,65 @@ h2 {
     text-align: center;
    
 }
+
 .text {
     color: rgb(219, 209, 209);
     font-size: 21px;
     text-align: center;
+}
+
+.form-box{
+    width: 40%;
+    height: 50%;    
+    background: linear-gradient(black 25%, #3febe3 200% );
+    border: 2px solid white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 12px;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+
+
+}
+
+input[type=text],[type=email],[type=number], select, textarea {
+    display: block;
+    width: 85%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+input[type=message], select, textarea {
+    display: block;
+    width: 85%;
+    height: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin:auto;
+
+}
+
+textarea{
+    resize: none;
+}
+
+input {
+    width: 135px;
+    line-height: 25px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 5%;
+    display: block;
+    color:black;    
 }
