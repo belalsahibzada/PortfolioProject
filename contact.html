@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
+    <!-- full-size monitor style sheet--> 
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="only screen and 
+    (min-width:960px)"> 
+    <!-- tablet style sheet--> 
+    <link href="css/tablet.css" rel="stylesheet" type="text/css" media="only screen 
+    and (min-width:481px) and (max-width:960px)"> 
+    <!-- phone style sheet--> 
+    <link href="css/phone.css" rel="stylesheet" type="text/css" media="only screen 
+    and (max-width:480px)"> 
+
+
+    <link rel="icon" type="image/x-icon" href="/images/b.png">
     <title> Contact </title>
 </head>
 <body>
-    <div class="nav"> 
-        <ul class = "navbar">
-            <li><a href="contact.html"> Contact Me </a></li>
-            <li><a href="aboutme.html"> About Me </a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="index.html">Home</a></li>
-            <img src="images/contact.png" alt="IMG">
-        </ul>
-    </div>
+    <nav> 
+        <li><a href="contact.html"> Contact Me </a></li>
+        <li><a href="aboutme.html"> About Me </a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="index.html">Home</a></li>
+        <img src="images/boy.png" alt="IMG">
+    </nav>
     <div class="form-box"> 
         <form class="form" action="https://formsubmit.co/fcbbb1db5bbacc7bde345bb1606b4f37" method="POST" >
             <label>  </label>
             <input type="text"  name="name" placeholder="Your name*" required><br>
             <input type="email" name="email" placeholder="Your email* " required> <br>
-            <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="123456789 [Do not include any dashes or spaces]" notrequired> <br>
+            <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="2339831562 [Do not include any dashes or spaces]" notrequired> <br>
             <textarea type="message" name="message" cols="60" rows="6" placeholder="Questions/Concerns*" required></textarea>
             <input type="hidden" name="_next" value="https://sahibzada.netlify.app">
             <input type="hidden" name="_captcha" value="false">
