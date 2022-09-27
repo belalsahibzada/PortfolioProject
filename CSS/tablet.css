@@ -31,6 +31,15 @@ body {
    text-align: center;
    color: rgb(233, 216, 216);
 }
+#footerC {
+    position: relative;
+    top: 93%; 
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: rgb(233, 216, 216);
+ }
 
 nav {
     list-style: none;
