@@ -196,7 +196,7 @@ input {
     font-family: 'Nunito', sans-serif;
     color: rgb(233, 216, 216);
     font-size: 25px;
-
+    padding-right: 90px;
     position: absolute;
     left: 5%;
 }
