@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap');
-
+/* main style for the whole body of the page*/
 body {
     font-family: 'Nunito', sans-serif;
     background: #252525;
@@ -21,7 +21,7 @@ body {
     color: rgb(233, 216, 216);
     font-size: 35px;
 }
-#footer {
+footer {
    position: absolute;
    top: 92%;
    bottom: 0;
@@ -31,6 +31,9 @@ body {
    text-align: center;
    color: rgb(233, 216, 216);
 }
+
+/* Alignment problems with the about me page on tablet and phone so I had to change position 
+to relative so it would stay at the bottom of the screen*/
 #footerC {
     position: absolute;
     top: 92%; 

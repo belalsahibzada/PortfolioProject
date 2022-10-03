@@ -21,7 +21,7 @@ body {
     color: rgb(233, 216, 216);
     font-size: 30px;
 }
-#footer {
+footer {
    position: absolute;
    top: 93%; 
    bottom: 0;
@@ -31,6 +31,8 @@ body {
    color: rgb(233, 216, 216);
 }
 
+/* Alignment problems with the about me page on tablet and phone so I had to change position 
+to relative so it would stay at the bottom of the screen*/
 #footerC {
    position: relative;
    top: 93%; 

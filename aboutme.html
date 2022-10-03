@@ -17,15 +17,20 @@
     <title> About Me </title>
 </head>
 <body>
+    <!-- Nav semantic tag for my nagivation bar-->
     <nav> 
+        <!-- using a list to display the items and making them clickable using "a href"-->
         <li><a href="contact.html"> Contact Me </a></li>
         <li><a href="aboutme.html"> About Me </a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="index.html">Home</a></li>
+        <!-- image in nav so that the navbar is as big as the image is-->
         <img src="images/boy.png" alt="IMG">
     </nav>
     
+    <!-- div to store all my contents about me (main div)-->
     <div class="main">
+        <!-- sub div to control video and image on the page-->
         <div class="content"> 
             <video id="Video" controls poster="videos/poster.png" onloadstart="this.volume=0.02" preload="auto"> 
                 <source src="videos/vid.mp4" type="video/mp4">
@@ -33,7 +38,8 @@
             </video>
             <img id="pic" src="images/bettle.png" alt="Me">
         </div>
-
+        
+        <!-- sub div for all the text-->
         <div class="text_about_me"> 
             <h2> A little about me </h2>
             <p> My name is Belal Ahmad Sahibzada (usually just called Belal). I am currently a second year university student
@@ -41,8 +47,10 @@
             limited to video games, computers, keyboards, gym, etc.</p>
         </div>
     </div>
-    <div id="footerC">
+    <!-- footer tag uses "id=footerC" to fix issue with it being in the wrong position
+    on phones and tablets-->
+    <footer id="footerC">
         <p> ©️ 2022 Belal Sahibzada </p>
-    </div>
+    </footer>
 </body>
 </html>

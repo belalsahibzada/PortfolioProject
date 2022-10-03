@@ -19,20 +19,31 @@
     <title> Contact </title>
 </head>
 <body>
+    <!-- Nav semantic tag for my nagivation bar-->
     <nav> 
+        <!-- using a list to display the items and making them clickable using "a href"-->
         <li><a href="contact.html"> Contact Me </a></li>
         <li><a href="aboutme.html"> About Me </a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="index.html">Home</a></li>
+        <!-- image in nav so that the navbar is as big as the image is-->
         <img src="images/boy.png" alt="IMG">
     </nav>
+
+    <!-- div to store all contents for form as well as to make a big box to display all the input types-->
     <div class="form-box"> 
+        <!-- "action" tag uses a third party mail client that forwards all the form submissions it gets to my email -->
         <form class="form" action="https://formsubmit.co/fcbbb1db5bbacc7bde345bb1606b4f37" method="POST" >
             <label>  </label>
             <input type="text"  name="name" placeholder="Your name*" required><br>
             <input type="email" name="email" placeholder="Your email* " required> <br>
+            <!-- "pattern" basically error checks to make sure the user has entered 
+            their phone number correctly//no text allowed in this field -->
             <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="2339831562 [Do not include any dashes or spaces]" notrequired> <br>
             <textarea type="message" name="message" cols="60" rows="6" placeholder="Questions/Concerns*" required></textarea>
+            <!-- extra inputs for the formsubmit client to return user after submitting form,
+            removing captcha so that user doesnt need to put captcha, and also format all the info 
+            in the email-->
             <input type="hidden" name="_next" value="https://sahibzada.netlify.app">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
@@ -40,8 +51,8 @@
 
         </form>
     </div>
-    <div id="footer">
+    <footer>
         <p> ©️ 2022 Belal Sahibzada </p>
-    </div>
+    </footer>
 </body>
 </html>
