@@ -176,7 +176,7 @@ button{
 }
 
 #buttonOne:hover{
-    background-color: white;
+    background:  linear-gradient(35deg,black 30%, #3febe3 120% );
     color: black;
     border: 5px;
     border-color: black;
